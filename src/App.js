@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import Page from './components/Layout/Page';
+import About from './components/Sections/About';
+import Contact from './components/Sections/Contact';
+import Footer from './components/Sections/Footer';
+import Hero from './components/Sections/Hero';
+import Portfolio from './components/Sections/Portfolio';
+import Resume from './components/Sections/Resume';
+import Header from './components/Sections/Header';
+import Testimonials from './components/Sections/Testimonials';
+import {homePageMeta} from './data/data';
 
 function App() {
+  const {title, description} = homePageMeta;
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Page description={description} title={title}>
+        <Header />
+        <Hero />
+        <About />
+        <Resume />
+        <Portfolio />
+        <Testimonials />
+        <Contact />
+        <Footer />
+      </Page>
+    </>
   );
 }
 
