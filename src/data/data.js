@@ -104,7 +104,7 @@ export const aboutData = {
     {label: 'Location', text: 'kab Bekasi, Indonesia', Icon: MapIcon},
     {label: 'Age', text: '18', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Indonesia', Icon: FlagIcon},
-    {label: 'Interests', text: 'Desiain Grafis, Internet Marketing', Icon: SparklesIcon},
+    {label: 'Interests', text: 'Fotografi Analog, Internet Marketing, dan Desain Grafis', Icon: SparklesIcon},
     {label: 'Study', text: 'Universitas Jenderal Soedirman', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Naver Z Corporation | Support Creator', Icon: OfficeBuildingIcon},
   ],
