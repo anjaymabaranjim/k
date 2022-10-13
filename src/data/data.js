@@ -315,7 +315,7 @@ export const testimonial = {
     },
     {
       name: 'distorsiamimpi',
-      text: '~  Sajak sajak Arsa; Bait I ~ <br/>Sebuah malam mimpi yang mengangkasa..... <br/> Nirmala pikiran yang bersenandung diantara dua nada.... <br/> Dua nada yang menjadi sayap di istana pikiran dalam kepala..... ',
+      text: '~  Sajak sajak Arsa; Bait I ~ <br/>Sebuah malamimpi yang mengangkasa..... <br/> Nirmala pikiran yang bersenandung diantara dua nada.... <br/> Dua nada yang menjadi sayap di istana pikiran dalam kepala..... ',
       image: testimonial3,
     },
     {
