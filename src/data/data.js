@@ -45,7 +45,7 @@ export const SectionId = {
   Hero: 'hero',
   About: 'about',
   Contact: 'contact',
-  Portfolio: 'portfolio',
+  Portfolio: 'Galeri',
   Resume: 'Education',
   Skills: 'skills',
   Stats: 'stats',
@@ -188,44 +188,74 @@ export const skills = [
  */
 export const portfolioItems = [
   {
-    description: "7 July",
+    title : "Cibubur",
+    description: "7 July 2022",
     image: porfolioImage1,
+    roll : "Kodak vision 3 200t",
+    url : "https://www.instagram.com/p/Cfrdqo4vXug/"
   },
   {
+    title : "Purwokerto",
     description: "22 Agustus",
     image: porfolioImage2,
+    roll : "kodak colorplus 200",
+    url: "https://www.instagram.com/p/ChjfsOypD5Y/"
   },
   {
+    title : "Purwokerto",
     description: "22 Agustus",
     image: porfolioImage3,
+    roll : "kodak colorplus 200",
+    url: "https://www.instagram.com/p/ChjfsOypD5Y/"
   },
   {
+    title : "Purwokerto",
     description: "22 Agustus",
     image: porfolioImage4,
+    roll : "kodak colorplus 200",
+    url: "https://www.instagram.com/p/ChjfsOypD5Y/"
   },
   {
+    title: "Perpusnas",
     description: "26 Agustus",
     image: porfolioImage5,
+    roll : "Kodak vision 3 200",
+    url : "https://www.instagram.com/p/CfrkQP6v1yr/"
   },
   {
+    title : "Purwokerto",
     description: "26 Agustus",
     image: porfolioImage6,
+    roll : `kodak colorplus 200`,
+    url: "https://www.instagram.com/p/ChupTzPp--D/"
   },
   {
+    title : "Purwokerto",
     description: "26 Agustus",
     image: porfolioImage7,
+    roll : `kodak colorplus 200`,
+    url: "https://www.instagram.com/p/ChupTzPp--D/"
   },
   {
+    title : "Purwokerto",
     description: "26 Agustus",
     image: porfolioImage8,
+    roll : `kodak colorplus 200`,
+    url: "https://www.instagram.com/p/ChupTzPp--D/"
   },
   {
+    title : "Purwokerto",
     description: "22 Agustus",
     image: porfolioImage9,
+    roll : "kodak colorplus 200",
+    url: "https://www.instagram.com/p/ChjfsOypD5Y/"
   },
   {
+    title : "Purwokerto",
     description: "26 Agustus",
     image: porfolioImage10,
+    roll : `kodak colorplus 200`,
+    url: "https://www.instagram.com/p/ChupTzPp--D/"
   },
 ];
 
